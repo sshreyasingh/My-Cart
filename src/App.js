@@ -1,41 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Navbar from './components/navbar';
-// import ProductList from './components/ProductList';
-// import React,{useState} from 'react';
 
-// function App() {
-//   const productList=[
-//     {
-//       price:20000,
-//       name:"Redmi note 6A",
-//       quantity:0,
-//     },
-//     {
-//       price:80000,
-//       name:"Samsung note 2",
-//       quantity:0,
-//     }
-//   ]
-//   let [ProductList, setProductList]= useState(productList)
-
-//   function incrementQuantity(index){
-//     let newProductList=[...productList]
-//     newProductList[index].quantity++
-//     setProductList(newProductList);
-//   }
-
-//   return (
-//     <>
-//     <Navbar/>
-//     <main className="container mt-5">
-//     <ProductList productList={productList} incrementQuantity={incrementQuantity}/>
-//     </main>
-//     </>
-//   );
-// }
-
-// export default App;
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
@@ -58,6 +21,16 @@ function App() {
     {
       price: 95000,
       name: "Realme Pro Max ",
+      quantity: 0,
+    },
+    {
+      price: 50000,
+      name: "OnePlus 12T ",
+      quantity: 0,
+    },
+    {
+      price: 60000,
+      name: "Vivo X100 Pro ",
       quantity: 0,
     }
   ];
